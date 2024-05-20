@@ -17,16 +17,16 @@ This project involves a walkthrough on creating a simple Active Directory home l
 <h2>Project Walkthrough:</h2>
 
 <p align="center">
-1. This diagram is the structure of this project, everything here will be installed and set up in this project as well as the same IP configurations: <br/>
-<img src="https://imgur.com/XyPL4NJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+configurations: <br/>
+<img src="https://imgur.com/XyPL4NJ.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-2. Virtual Machines that are going to be used throughout this project have been created and uploaded:  <br/>
-<img src="https://imgur.com/Zv0dZUg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+:  <br/>
+<img src="" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-3. Installation of the Server 2019 VM:  <br/>
-<img src="https://imgur.com/WuihVIM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+:  <br/>
+<img src="" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 </p>
 
 <!--
