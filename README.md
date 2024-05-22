@@ -149,59 +149,43 @@ This project involves a walkthrough on creating a simple Active Directory home l
 <img src="https://imgur.com/A5DLtDk.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-36. :  <br/>
-<img src="https://imgur.com/Hss3W76.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
-<br />
-<br />
-37. :  <br/>
+37. Enter the path of the file within the Virtual Machine:  <br/>
 <img src="https://imgur.com/7Nfma5r.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-38. :  <br/>
-<img src="https://imgur.com/nTtrpgZ.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
-<br />
-<br />
-39. :  <br/>
-<img src="https://imgur.com/Ju3oDgJ.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
-<br />
-<br />
-40. :  <br/>
+40. It has been created and now all the events are being displayed:  <br/>
 <img src="https://imgur.com/NR9ERaU.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-41. :  <br/>
-<img src="https://imgur.com/onTcGP8.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
-<br />
-<br />
-42. :  <br/>
+42. All of the data from the sample log as well as our three failed attempted are being displayed:  <br/>
 <img src="https://imgur.com/QI0COQP.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-43. :  <br/>
+43. With this script the data will be displayed with several fields that show the data of each event:  <br/>
 <img src="https://imgur.com/R0Idxz0.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-44. :  <br/>
+44. Within Sentinel, the workbook feature is going be used to create a visualation of the attacks:  <br/>
 <img src="https://imgur.com/b0CE9XN.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-45. :  <br/>
+45. Reenter the script used before to create this query:  <br/>
 <img src="https://imgur.com/gybDTIp.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-46. :  <br/>
+46. Change the visualation to world map and it will display the location of each attack:  <br/>
 <img src="https://imgur.com/FcsPvDg.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-47. :  <br/>
+47. This is how it looks:  <br/>
 <img src="https://imgur.com/n3oJ3XO.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-48. :  <br/>
+48. After waiting while new events have appeared indicating that some people have attempted to attack the Virtual Machine:  <br/>
 <img src="https://imgur.com/8PaDqo8.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-49. :  <br/>
+49. This is what the map now looks like, 199 attacks from Netherlands and 2 from Morocco:  <br/>
 <img src="https://imgur.com/8vArZrt.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 </p>
 
