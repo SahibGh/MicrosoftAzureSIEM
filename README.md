@@ -77,43 +77,43 @@ This project involves a walkthrough on creating a simple Active Directory home l
 <img src="https://imgur.com/L7awxCF.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-17. Now we go to Azure Sentinel, which is our SIEM that will be used to visualise the data of the attack :  <br/>
+17. Now we go to Azure Sentinel, which is the SIEM that will be used to visualise the data of the attack :  <br/>
 <img src="https://imgur.com/Qx4Uods.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-18. :  <br/>
+18. Select the Workspace that we've connected to the Virtual Machine:  <br/>
 <img src="https://imgur.com/wEnFBK2.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-19. :  <br/>
+19. Now return to the Virtual Machine, and copy the Public IP Address that has been generated:  <br/>
 <img src="https://imgur.com/pOhHbbq.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-20. :  <br/>
+20. Enter that IP Address into remote desktop and enter the credentials created when the Virtual Machine was created:  <br/>
 <img src="https://imgur.com/abzpyUn.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-21. : <br/>
+21. Logging in: <br/>
 <img src="https://imgur.com/1Gdl4fx.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-22. :  <br/>
+22. Once logged in, go to the Start menu and go to Event Viewer:  <br/>
 <img src="https://imgur.com/VL4cnAz.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-24. :  <br/>
+24. These are all security events that have occured on the Virtual Machine, we are going to the be focussing on the login failures:  <br/>
 <img src="https://imgur.com/huHQj2R.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-25. :  <br/>
+25. If we tried to ping the Virtual Machine from our normal machine it wont work:  <br/>
 <img src="https://imgur.com/pD1gnRF.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-26. :  <br/>
+26. Open Windows Defender Firewall and turn off the firewall completely:  <br/>
 <img src="https://imgur.com/aALpzPN.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-27. :  <br/>
+27. Now the ping from our own machine should work:  <br/>
 <img src="https://imgur.com/fefiI5O.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
