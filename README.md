@@ -113,39 +113,39 @@ This project involves a walkthrough on creating a simple Active Directory home l
 <img src="https://imgur.com/aALpzPN.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-27. Now the ping from our own machine should work:  <br/>
+27. Now the ping from our own machine should work, this means the Virtual Machine is exposed:  <br/>
 <img src="https://imgur.com/fefiI5O.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-28. :  <br/>
+28. This script grabs the IP address of people who failed to log in from the Event Viewer logs and gets the geodata, creating a log file:  <br/>
 <img src="https://imgur.com/i5BCMZ0.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-29. :  <br/>
+29. The script is opened in powershell:  <br/>
 <img src="https://imgur.com/CdsMWGx.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-30. :  <br/>
+30. This website is used track the details of the attacks, for example, country, state, city, latitude and longitude. Once an API key is generated enter it into the script in Powershell:  <br/>
 <img src="https://imgur.com/J5Z7EvT.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-31. : <br/>
+31. When the script is run, the failed login attempts will be displayed as the output: <br/>
 <img src="https://imgur.com/vtcgHlh.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-32. :  <br/>
+32. This file failed_rdp has sample data to train Analytics Workspace with the bottom three being real attempts from myself:  <br/>
 <img src="https://imgur.com/cOWMmg4.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-33. :  <br/>
+33. Create the same file with the same contents on your own machine:  <br/>
 <img src="https://imgur.com/Vj8Vx38.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-34. :  <br/>
+34. Now we are going to create a custom log with the file to be able to bring the geodata into our Workspace:  <br/>
 <img src="https://imgur.com/t0DADMq.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-35. :  <br/>
+35. Add the failed_rdp.log as a sample:  <br/>
 <img src="https://imgur.com/A5DLtDk.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
