@@ -18,70 +18,66 @@ This project involves a walkthrough on creating a simple Active Directory home l
 
 <p align="center">
 1. : <br/>
-<img src="https://imgur.com/XyPL4NJ.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
+<img src="https://imgur.com/ukLUUvr.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-2. :  <br/>
+2. This is Microsoft Azure, a cloud computing platform. The services and tools they provide will be used in this project:  <br/>
 <img src="https://imgur.com/2wDKDy8.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-3. :  <br/>
+3. First create a new virtual machine:  <br/>
 <img src="https://imgur.com/kbRTMnH.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-4. :  <br/>
+4. This is the virtual machine that will be exposed to the internet, people from other countries will try to attack it:  <br/>
 <img src="https://imgur.com/mfxDz23.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-5. :  <br/>
-<img src="https://imgur.com/CpB5qSf.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
-<br />
-<br />
-6. :  <br/>
+6. In the networking settings a new rule is added to make it so that everything is allowed into the vm:  <br/>
 <img src="https://imgur.com/SzRxnog.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-7. :  <br/>
+7. Now create the virtual machine:  <br/>
 <img src="https://imgur.com/NduSwtw.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-8. :  <br/>
+8. It is now deploying:  <br/>
 <img src="https://imgur.com/3vuvDuk.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-9. :  <br/>
+9. Next we need to make a log analytics workspace:  <br/>
 <img src="https://imgur.com/eNrE8IY.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-10. :  <br/>
+10. This is used for taking in and storing logs from the virtual machine:  <br/>
 <img src="https://imgur.com/LzJf6qh.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-11. : <br/>
+11. It is now deploying: <br/>
 <img src="https://imgur.com/oJIfLBI.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-12. :  <br/>
+12. Now go to Microsoft Defender for cloud on Azure, this is what will enable the ability to gather logs from the virtual machine ot the loig analytics workspace:  <br/>
 <img src="https://imgur.com/b592qp8.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-13. :  <br/>
+13. Kept everything on except for SQL servers since they won't be in use:  <br/>
 <img src="https://imgur.com/5WBFaf2.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-14. :  <br/>
+14. Under Data Collection, select All Events:  <br/>
 <img src="https://imgur.com/vK55aSE.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-15. :  <br/>
+15. In Log Analytics workspace, navigate to our Virtual Machine:  <br/>
 <img src="https://imgur.com/9Co1FNX.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-16. :  <br/>
+16. Click connect to connect the Log Analytics workspace and our Virtual Machine:  <br/>
 <img src="https://imgur.com/L7awxCF.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-17. :  <br/>
+17. Now we go to Azure Sentinel, which is our SIEM that will be used to visualise the data of the attack :  <br/>
 <img src="https://imgur.com/Qx4Uods.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
@@ -103,10 +99,6 @@ This project involves a walkthrough on creating a simple Active Directory home l
 <br />
 22. :  <br/>
 <img src="https://imgur.com/VL4cnAz.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
-<br />
-<br />
-23. :  <br/>
-<img src="https://imgur.com/HeRw2kP.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
 24. :  <br/>
