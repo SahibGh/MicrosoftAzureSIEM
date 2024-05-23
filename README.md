@@ -9,7 +9,7 @@ This project involves creating a honeypot using Microsoft Azure. A live virtual 
 - <b>Microsoft Azure</b>
 - <b>PowerShell</b> 
 
-<h2>Features Used </h2>
+<h2>Microsoft Azure features Used </h2>
 
 - <b>Virtual Machines</b> 
 - <b>Log Analytics Workspaces</b>
