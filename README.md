@@ -20,7 +20,7 @@ This project involves creating a honeypot using Microsoft Azure. A live virtual 
 
 <p align="center">
 1. This is Microsoft Azure, a cloud computing platform. The services and tools they provide will be used in this project:  <br/>
-<img src="https://imgur.com/2wDKDy8.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
+<img src="https://imgur.com/2wDKDy8.png" height="90%" width="90%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
 2. First create a new Virtual Machine:  <br/>
