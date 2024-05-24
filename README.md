@@ -24,23 +24,23 @@ This project involves creating a honeypot using Microsoft Azure. A live virtual 
 <br />
 <br />
 2. First create a new Virtual Machine:  <br/>
-<img src="https://imgur.com/kbRTMnH.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
+<img src="https://imgur.com/kbRTMnH.png" height="100%" width="100%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
 3. This is the Virtual Machine that will be exposed to the internet, people from other countries will try to attack it:  <br/>
-<img src="https://imgur.com/mfxDz23.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
+<img src="https://imgur.com/mfxDz23.png" height="100%" width="100%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
 4. In the networking settings a new rule is added to make it so that everything is allowed into the vm:  <br/>
-<img src="https://imgur.com/SzRxnog.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
+<img src="https://imgur.com/SzRxnog.png" height="100%" width="100%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
 5. Now create the Virtual Machine:  <br/>
-<img src="https://imgur.com/NduSwtw.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
+<img src="https://imgur.com/NduSwtw.png" height="100%" width="100%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
 6. It is now deploying:  <br/>
-<img src="https://imgur.com/3vuvDuk.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
+<img src="https://imgur.com/3vuvDuk.png" height="100%" width="100%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
 7. Next we need to make a Log Analytics workspace:  <br/>
