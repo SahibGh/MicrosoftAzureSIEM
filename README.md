@@ -23,11 +23,11 @@ This project involves creating a honeypot using Microsoft Azure. A live virtual 
 <img src="https://imgur.com/2wDKDy8.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-2. First create a new virtual machine:  <br/>
+2. First create a new Virtual Machine:  <br/>
 <img src="https://imgur.com/kbRTMnH.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-3. This is the virtual machine that will be exposed to the internet, people from other countries will try to attack it:  <br/>
+3. This is the Virtual Machine that will be exposed to the internet, people from other countries will try to attack it:  <br/>
 <img src="https://imgur.com/mfxDz23.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
@@ -35,7 +35,7 @@ This project involves creating a honeypot using Microsoft Azure. A live virtual 
 <img src="https://imgur.com/SzRxnog.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-5. Now create the virtual machine:  <br/>
+5. Now create the Virtual Machine:  <br/>
 <img src="https://imgur.com/NduSwtw.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
@@ -43,7 +43,7 @@ This project involves creating a honeypot using Microsoft Azure. A live virtual 
 <img src="https://imgur.com/3vuvDuk.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-7. Next we need to make a log analytics workspace:  <br/>
+7. Next we need to make a Log Analytics workspace:  <br/>
 <img src="https://imgur.com/eNrE8IY.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
@@ -55,7 +55,7 @@ This project involves creating a honeypot using Microsoft Azure. A live virtual 
 <img src="https://imgur.com/oJIfLBI.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
-10. Now go to Microsoft Defender for cloud on Azure, this is what will enable the ability to gather logs from the virtual machine ot the loig analytics workspace:  <br/>
+10. Now go to Microsoft Defender for cloud on Azure, this is what will enable the ability to gather logs from the Virtual Machine to the Log Analytics workspace:  <br/>
 <img src="https://imgur.com/b592qp8.png" height="80%" width="80%" alt="Microsoft Azure SIEM Steps"/>
 <br />
 <br />
