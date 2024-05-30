@@ -1,4 +1,4 @@
-<h1>Setting up SIEM using Microsoft Azure with live cyberattacks</h1>
+<h1>Setting up Honeypot using Microsoft Azure with live cyberattacks</h1>
 
 <h2>Description</h2>
 This project involves creating a honeypot using Microsoft Azure. A live virtual machine will be set up to act as the honeypot, designed to attract and log potential cyberattacks. Azure Sentinel is the SIEM and will be connected to the Virtual Machine to monitor incoming attacks. We will observe and log live attacks from around the world in real-time. Then a PowerShell script to determine the geolocation of the attackers. The geolocation data will then be visualized on a map using the built-in visualization features of Azure Sentinel. This will help us gain insights into the geographic distribution of the attacks.
